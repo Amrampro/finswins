@@ -6,55 +6,48 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="banner__content text-center">
-                                <span class="sub-title"><i class="icon-donation"></i>Start donating poor people</span>
-                                <h1>Helping Each Other Make
-                                    <span>Better</span> today
-                                </h1>
-                                <p>Join our monthly giving
-                                    program to provide consistent support to our initiatives. Regular
-                                    contributions, no matter the size, help us plan and sustain long-term projects.
+                                <span class="sub-title"><i class="icon-donation"></i>Changeons le monde</span>
+                                <h1>S’entraider, c’est <span>bâtir</span> un avenir meilleur</h1>
+                                <p>Ensemble, nous construisons un monde plus juste, un projet à la fois.
+                                    Rejoignez notre programme de dons réguliers et aidez-nous à planifier des actions
+                                    durables.
                                 </p>
                                 <div class="banner__content-cta cta">
                                     <a href="our-causes.html" aria-label="about us" title="about us"
-                                       class="btn--tertiary">Discover More <i class="fa-solid fa-arrow-right"></i></a>
+                                        class="btn--tertiary">Découvrir Nos Actions<i
+                                            class="fa-solid fa-arrow-right"></i></a>
                                     <a href="contact-us.html" aria-label="contact us" title="contact us"
-                                       class="btn--primary">Get A Quote <i class="fa-solid fa-arrow-right"></i></a>
+                                        class="btn--primary">Je M’engage <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="banner__content text-center">
-                                <span class="sub-title"><i class="icon-donation"></i>Start donating poor people</span>
-                                <h1>Helping Each Other Make
-                                    <span>Better</span> today
-                                </h1>
-                                <p>Join our monthly giving
-                                    program to provide consistent support to our initiatives. Regular
-                                    contributions, no matter the size, help us plan and sustain long-term projects.
-                                </p>
+                                <span class="sub-title"><i class="icon-donation"></i>Inspirer le changement</span>
+                                <h1>Quand une femme se lève, c’est tout un <span>monde</span> qui avance</h1>
+                                <p>Offrez aux femmes vulnérables les outils pour transformer leur vie et leur
+                                    communauté.
+                                    Rejoignez notre mouvement et devenez acteur d’un changement durable, ici et
+                                    ailleurs.</p>
                                 <div class="banner__content-cta cta">
                                     <a href="our-causes.html" aria-label="about us" title="about us"
-                                       class="btn--tertiary">Discover More <i class="fa-solid fa-arrow-right"></i></a>
+                                        class="btn--tertiary">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
                                     <a href="contact-us.html" aria-label="contact us" title="contact us"
-                                       class="btn--primary">Get A Quote <i class="fa-solid fa-arrow-right"></i></a>
+                                        class="btn--primary">Agir maintenant <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="banner__content text-center">
-                                <span class="sub-title"><i class="icon-donation"></i>Start donating poor people</span>
-                                <h1>Helping Each Other Make
-                                    <span>Better</span> today
-                                </h1>
-                                <p>Join our monthly giving
-                                    program to provide consistent support to our initiatives. Regular
-                                    contributions, no matter the size, help us plan and sustain long-term projects.
-                                </p>
+                                <span class="sub-title"><i class="icon-donation"></i>Votre soutien est une semence d’espoir</span>
+                                <h1>Agir ensemble, <span>transformer</span> nos réalités</h1>
+                                <p>Grâce à vos dons, nous formons, accompagnons et révélons le potentiel des femmes Bayam-Sellam et migrantes.
+                                    Investissez dans des projets qui changent réellement les trajectoires de vie</p>
                                 <div class="banner__content-cta cta">
                                     <a href="our-causes.html" aria-label="about us" title="about us"
-                                       class="btn--tertiary">Discover More <i class="fa-solid fa-arrow-right"></i></a>
+                                        class="btn--tertiary">Nos Projets <i class="fa-solid fa-arrow-right"></i></a>
                                     <a href="contact-us.html" aria-label="contact us" title="contact us"
-                                       class="btn--primary">Get A Quote <i class="fa-solid fa-arrow-right"></i></a>
+                                        class="btn--primary">Faire un Don <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>

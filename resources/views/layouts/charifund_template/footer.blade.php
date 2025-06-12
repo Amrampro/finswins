@@ -99,10 +99,9 @@
                             </div>
                             <div class="content">
                                 <p>
-                                    <a href="mailto:support@example.com">support@example.com</a>
+                                    <a href="mailto:info@fins-wins.org">info@fins-wins.org</a>
                                 </p>
-                                <p><a href="tel:2305-587-3407">+2(305)
-                                        587-3407</a>
+                                <p><a href="tel:+32485150430"> +32 (0) 485 15 04 30</a>
                                 </p>
                             </div>
                         </div>

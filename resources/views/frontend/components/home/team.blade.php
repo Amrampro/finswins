@@ -50,8 +50,8 @@
                             </div>
                         </div>
                         <div class="team__single-content">
-                            <h6><a href="team-details.html">Michel Fokluz</a></h6>
-                            <p>Volunteer</p>
+                            <h6><a href="team-details.html">Dr Martine Cécile Ngo Nyemb-Wisman</a></h6>
+                            <p>Fodatrice - Présidente</p>
                         </div>
                     </div>
                 </div>
@@ -94,8 +94,8 @@
                             </div>
                         </div>
                         <div class="team__single-content">
-                            <h6><a href="team-details.html">Arian Drobloas</a></h6>
-                            <p>Volunteer</p>
+                            <h6><a href="team-details.html">Arend Epko Wisman</a></h6>
+                            <p>Vice-Président</p>
                         </div>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                             </div>
                         </div>
                         <div class="team__single-content">
-                            <h6><a href="team-details.html">Jara Klintof</a></h6>
+                            <h6><a href="team-details.html">René Wisman</a></h6>
                             <p>Volunteer</p>
                         </div>
                     </div>
@@ -182,8 +182,8 @@
                             </div>
                         </div>
                         <div class="team__single-content">
-                            <h6><a href="team-details.html">Aiden Markram</a></h6>
-                            <p>Volunteer</p>
+                            <h6><a href="team-details.html">Denis Mertens</a></h6>
+                            <p>Secrétariat général</p>
                         </div>
                     </div>
                 </div>

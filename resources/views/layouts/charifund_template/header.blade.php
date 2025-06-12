@@ -12,95 +12,32 @@
                         <div class="navbar__menu d-none d-xl-block">
                             <ul class="navbar__list">
                                 <li class="navbar__item navbar__item nav-fade">
-                                    <a @class([ 'active' => request()->routeIs('frontend.home')]) href="{{route('frontend.home')}}" aria-label="dropdown menu">Home</a>
+                                    <a @class([ 'active' => request()->routeIs('frontend.home')]) href="{{route('frontend.home')}}" aria-label="dropdown menu">Accueil</a>
                                 </li>
                                 <li class="navbar__item nav-fade">
-                                    <a @class([ 'active' => request()->routeIs('frontend.about')]) href="{{route('frontend.about')}}">About Us</a>
+                                    <a @class([ 'active' => request()->routeIs('frontend.about')]) href="{{route('frontend.about')}}">A Propos</a>
+                                </li>
+                                <li class="navbar__item nav-fade">
+                                    <a @class([ 'active' => request()->routeIs('frontend.about')]) href="cause-details.html">Actions</a>
+                                </li>
+                                <li class="navbar__item nav-fade">
+                                    <a @class([ 'active' => request()->routeIs('frontend.about')]) href="our-team.htm">Nos Membres</a>
+                                </li>
+                                <li class="navbar__item nav-fade">
+                                    <a @class([ 'active' => request()->routeIs('frontend.about')]) href="blog-grid.html">Blog</a>
                                 </li>
                                 <li class="navbar__item navbar__item--has-children nav-fade">
                                     <a href="#" aria-label="dropdown menu"
-                                       class="navbar__dropdown-label dropdown-label-alter">Causes</a>
+                                       class="navbar__dropdown-label dropdown-label-alter">Medias</a>
                                     <ul class="navbar__sub-menu">
                                         <li>
-                                            <a href="our-causes.html">Our Causes</a>
+                                            <a href="blog-list.html">Photo</a>
                                         </li>
                                         <li>
-                                            <a href="cause-details.html">Cause Details</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="navbar__item navbar__item--has-children nav-fade">
-                                    <a href="#" aria-label="dropdown menu"
-                                       class="navbar__dropdown-label dropdown-label-alter">Pages</a>
-                                    <ul class="navbar__sub-menu">
-                                        <li>
-                                            <a href="faq.html">FAQ</a>
+                                            <a href="blog-grid.html">Video</a>
                                         </li>
                                         <li>
-                                            <a href="donate-us.html">Donate Us</a>
-                                        </li>
-                                        <li class="navbar__item navbar__item--has-children">
-                                            <a aria-label="dropdown menu"
-                                               class="navbar__dropdown-label navbar__dropdown-label-sub">Events</a>
-                                            <ul class="navbar__sub-menu navbar__sub-menu__nested">
-                                                <li>
-                                                    <a href="events.html">Events</a>
-                                                </li>
-                                                <li>
-                                                    <a href="event-details.html">Event Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="navbar__item navbar__item--has-children">
-                                            <a aria-label="dropdown menu"
-                                               class="navbar__dropdown-label navbar__dropdown-label-sub">Shop</a>
-                                            <ul class="navbar__sub-menu navbar__sub-menu__nested">
-                                                <li>
-                                                    <a href="shop.html">Our Shop</a>
-                                                </li>
-                                                <li>
-                                                    <a href="product-details.html">Product Details</a>
-                                                </li>
-                                                <li>
-                                                    <a href="cart.html">View Cart</a>
-                                                </li>
-                                                <li>
-                                                    <a href="checkout.html">Cehckout</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="navbar__item navbar__item--has-children">
-                                            <a aria-label="dropdown menu"
-                                               class="navbar__dropdown-label navbar__dropdown-label-sub">Team</a>
-                                            <ul class="navbar__sub-menu navbar__sub-menu__nested">
-                                                <li>
-                                                    <a href="our-team.html">Our Teams</a>
-                                                </li>
-                                                <li>
-                                                    <a href="team-details.html">Team Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="coming-soon.html">Coming Soon</a>
-                                        </li>
-                                        <li>
-                                            <a href="404.html">Error</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="navbar__item navbar__item--has-children nav-fade">
-                                    <a href="#" aria-label="dropdown menu"
-                                       class="navbar__dropdown-label dropdown-label-alter">News</a>
-                                    <ul class="navbar__sub-menu">
-                                        <li>
-                                            <a href="blog-list.html">News List View</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-grid.html">News Grid View</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details.html">News Details</a>
+                                            <a href="blog-details.html">Dossier de presse</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -116,8 +53,8 @@
                                         <i class="fa-solid fa-phone-volume"></i>
                                     </div>
                                     <div class="contact-content">
-                                        <p>Call Us Now</p>
-                                        <a href="tel:01-793-7938">(+01)-793-7938 </a>
+                                        <p>Appeler Maintenant</p>
+                                        <a href="tel:+32485150430">+32 (0) 485 15 04 30</a>
                                     </div>
                                 </div>
                                 <div class="search-box">
@@ -125,7 +62,7 @@
                                         <i class="fa-solid fa-magnifying-glass"></i>
                                     </button>
                                 </div>
-                                <a href="donate-us.html" class="btn--primary d-none d-md-flex">Donate Now <i
+                                <a href="donate-us.html" class="btn--primary d-none d-md-flex">Faire un Don <i
                                         class="icon-circle-arrow"></i></a>
                             </div>
                             <button class="open-offcanvas-nav d-flex d-xl-none" aria-label="toggle mobile menu"

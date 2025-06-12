@@ -81,9 +81,6 @@
         </svg>
     </button>
     <!-- ==== / scroll to top end ==== -->
-    <!-- ==== color switcher start ==== -->
-    @include('layouts.charifund_template.color_switcher')
-    <!-- ==== / color switcher end ==== -->
 </div>
 <!-- ==== js dependencies start ==== -->
 <!-- jquery -->
