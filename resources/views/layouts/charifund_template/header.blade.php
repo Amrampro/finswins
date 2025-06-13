@@ -18,13 +18,13 @@
                                     <a @class([ 'active' => request()->routeIs('frontend.about')]) href="{{route('frontend.about')}}">A Propos</a>
                                 </li>
                                 <li class="navbar__item nav-fade">
-                                    <a @class([ 'active' => request()->routeIs('frontend.about')]) href="cause-details.html">Actions</a>
+                                    <a @class([ 'active' => request()->routeIs('frontend.cause_detail')]) href="{{route('frontend.cause_detail')}}">Actions</a>
                                 </li>
                                 <li class="navbar__item nav-fade">
-                                    <a @class([ 'active' => request()->routeIs('frontend.about')]) href="our-team.htm">Nos Membres</a>
+                                    <a @class([ 'active' => request()->routeIs('frontend.team')]) href="{{route('frontend.team')}}">Nos Membres</a>
                                 </li>
                                 <li class="navbar__item nav-fade">
-                                    <a @class([ 'active' => request()->routeIs('frontend.about')]) href="blog-grid.html">Blog</a>
+                                    <a @class([ 'active' => request()->routeIs('frontend.blogs.*')]) href="{{route('frontend.blogs.index')}}">Blog</a>
                                 </li>
                                 <li class="navbar__item navbar__item--has-children nav-fade">
                                     <a href="#" aria-label="dropdown menu"

@@ -13,4 +13,8 @@ Route::as("frontend.")->group(function () {
     Route::get("/", \App\Http\Controllers\Frontend\FrontendHomeController::class)->name("home");
     Route::get("/about", \App\Http\Controllers\Frontend\FrontendAboutController::class)->name("about");
     Route::get("/contact", \App\Http\Controllers\Frontend\FrontendContactController::class)->name("contact");
+    Route::get("/cause-detail", \App\Http\Controllers\Frontend\FrontendCauseDetailController::class)->name("cause_detail");
+    Route::get("/team", \App\Http\Controllers\Frontend\FrontendTeamController::class)->name("team");
+    Route::get("/blogs", \App\Http\Controllers\Frontend\FrontendBlogController::class)->name("blogs.index");
+
 });
