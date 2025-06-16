@@ -4,172 +4,65 @@
             <div class="col-12 col-xl-8">
                 <div class="cm-details__content">
                     <div class="cm-details__poster" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                        <img src="assets/images/event/poster.png" alt="Image">
+                        {{-- <img src="assets/images/event/poster.png" alt="Image"> --}} {{-- a 850 x 486 image --}}
+                        <img src="assets/images/actions/sld15.png" alt="Image">
                     </div>
                     <div class="cm-details-meta">
-                        <p><i class="fa-solid fa-calendar-days"></i>02 Apr 2021</p>
-                        <p><i class="fa-solid fa-location-dot"></i>684 West College St. Sun City, USA</p>
+                        {{-- <p><i class="fa-solid fa-calendar-days"></i>02 Apr 2021</p>
+                        <p><i class="fa-solid fa-location-dot"></i>684 West College St. Sun City, USA</p> --}}
+                    </div>
+                    <div class="cm-sidebar-widget" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                        <div class="intro">
+                            <h5>DOMAINE OPERATIONNEL</h5>
+                        </div>
+                        <p>Economie, Social, Politique et Culturel</p>
+                    </div>
+                    <div class="cm-sidebar-widget" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                        <div class="intro">
+                            <h5>STRATEGIE GLOBALE</h5>
+                        </div>
+                        <p>Recherche - Action</p>
                     </div>
                     <div class="cm-group cta">
-                        <h3 class="title-animation">Give african childrens a good education</h3>
-                        <p>Charity and Donation is a categorys that involves giving financial category that involves
-                            giving financial or material support various causes organizations. It allows individuals
-                            towards the a addressing social category that involves giving financial or material support
-                            various causes of organizations. It allows individuals towards addressing social</p>
+                        <h3 class="title-animation">PROJET F.I.N.S</h3>
                     </div>
-                    <div class="cm-group cta">
-                        <h3 class="title-animation">Summary</h3>
-                        <p>Charity and Donation is a categorys that involves giving financial category that involves
-                            giving financial or material support various causes organizations. It allows individuals
-                            towards the a addressing social category that involves giving financial or material support
-                            various causes of organizations. It allows individuals towards addressing social</p>
+                    <div class="cm-sidebar-widget" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                        <h4 class="title-animation">VOLET RECHERCHE</h4>
                         <div class="cm-details__list">
                             <ul>
-                                <li><i class="icon-circle-check"></i>Empower Through Charity</li>
-                                <li><i class="icon-circle-check"></i>Giving Hope, Changing Lives</li>
-                                <li><i class="icon-circle-check"></i>Healing Communities</li>
-                                <li><i class="icon-circle-check"></i>Together We Can</li>
-                                <li><i class="icon-circle-check"></i>Compassion in Action</li>
-                                <li><i class="icon-circle-check"></i>Every Act Counts</li>
+                                <li><i class="icon-circle-check"></i>Organisation de séminaires, conférences et
+                                    colloques</li>
+                                <li><i class="icon-circle-check"></i>Réalisation d'études ciblées</li>
+                                <li><i class="icon-circle-check"></i>Création de groupes thématiques de travail</li>
+                                <li><i class="icon-circle-check"></i>Publication des portraits sur les trajectoires des
+                                    femmes remarquables du Nord ou du Sud</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cm-sidebar-widget" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                        <h4 class="title-animation">VOLET ACTION</h4>
+                        <div class="cm-details__list">
+                            <ul>
+                                <li><i class="icon-circle-check"></i>Recherche d'appuis finnanciers</li>
+                                <li><i class="icon-circle-check"></i>Manifestations extérieures dans le cadre des
+                                    actions de lobbying et de plaidoyers</li>
+                                <li><i class="icon-circle-check"></i>Renforcement des structures existantes</li>
+                                <li><i class="icon-circle-check"></i>Micro-finance et formation</li>
                             </ul>
                         </div>
                     </div>
                     <div class="cm-img-group cta">
                         <div class="cm-img-single">
-                            <img src="assets/images/event/pp-one.png" alt="Image">
+                            <img src="assets/images/actions/action1s.gif" alt="Image">
                         </div>
                         <div class="cm-img-single">
-                            <img src="assets/images/event/pp-two.png" alt="Image">
+                            <img src="assets/images/actions/action2s.gif" alt="Image">
                         </div>
-                    </div>
-                    <div class="blog-comment" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                        <div class="comment-header mb-40">
-                            <h4 class="mt-8 title-animation">03 Comments</h4>
+                        <div class="cm-img-single">
+                            <img src="assets/images/actions/action3s.gif" alt="Image">
                         </div>
-                        <div class="comment-single">
-                            <div class="thumb">
-                                <img src="assets/images/author-four.png" alt="Image">
-                            </div>
-                            <div class="comment-single__content">
-                                <h5>Martha Grey</h5>
-                                <p>Ut sint posse sit, eum sumo diam ea. Liber consectetuer in mei, sea in imperdiet
-                                    assueverit
-                                    contentiones, an his cib.
-                                </p>
-                                <div class="comment-single__meta">
-                                    <button title="like" class="single"><i class="icon-heart"></i> Like</button>
-                                    <div class="reply-button">
-                                        <button aria-label="reply"><i class="fa-solid fa-reply"></i>Reply</button>
-                                    </div>
-                                    <p>2 min ago</p>
-                                </div>
-                                <div class="reply-comment">
-                                    <form action="#" method="post">
-                                        <div class="input-group">
-                                            <div class="input-single">
-                                                <textarea placeholder="Join the discussion..." required></textarea>
-                                            </div>
-                                            <div class="btn-wrapper">
-                                                <button type="submit" class="btn--secondary">Reply</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="comment-single comment-single-reply">
-                            <div class="thumb">
-                                <img src="assets/images/team/one.png" alt="Image">
-                            </div>
-                            <div class="comment-single__content">
-                                <h5>Jackie Dawson</h5>
-                                <p>Ut sint posse sit, eum sumo diam ea. Liber consectetuer in mei, sea in imperdiet
-                                    assueverit
-                                    contentiones, an his cib.
-                                </p>
-                                <div class="comment-single__meta">
-                                    <button title="like" class="single"><i class="icon-heart"></i> Like</button>
-                                    <div class="reply-button">
-                                        <button aria-label="reply"><i class="fa-solid fa-reply"></i>Reply</button>
-                                    </div>
-                                    <p>2 min ago</p>
-                                </div>
-                                <div class="reply-comment">
-                                    <form action="#" method="post">
-                                        <div class="input-group">
-                                            <div class="input-single">
-                                                <textarea placeholder="Join the discussion..." required></textarea>
-                                            </div>
-                                            <div class="btn-wrapper">
-                                                <button type="submit" class="btn--secondary">Reply</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="comment-single">
-                            <div class="thumb">
-                                <img src="assets/images/author-two.png" alt="Image">
-                            </div>
-                            <div class="comment-single__content">
-                                <h5>Hesia Lara</h5>
-                                <p>Ut sint posse sit, eum sumo diam ea. Liber consectetuer in mei, sea in imperdiet
-                                    assueverit
-                                    contentiones, an his cib.
-                                </p>
-                                <div class="comment-single__meta">
-                                    <button title="like" class="single"><i class="icon-heart"></i> Like</button>
-                                    <div class="reply-button">
-                                        <button aria-label="reply"><i class="fa-solid fa-reply"></i>Reply</button>
-                                    </div>
-                                    <p>2 min ago</p>
-                                </div>
-                                <div class="reply-comment">
-                                    <form action="#" method="post">
-                                        <div class="input-group">
-                                            <div class="input-single">
-                                                <textarea placeholder="Join the discussion..." required></textarea>
-                                            </div>
-                                            <div class="btn-wrapper">
-                                                <button type="submit" class="btn--secondary">Reply</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="comment__form mt-120" data-aos="fade-up" data-aos-duration="1000"
-                             data-aos-delay="100">
-                            <div class="comment-header mb-40">
-                                <h4 class="mt-8 fw-6">Leave A Comment</h4>
-                            </div>
-                            <form action="#" method="post">
-                                <div class="form-group">
-                                    <div class="input-icon">
-                                        <input type="text" required name="comment-name" id="commentName"
-                                               placeholder="Your Name">
-                                        <i class="fa-solid fa-user"></i>
-                                    </div>
-                                    <div class="input-icon">
-                                        <input type="email" required name="comment-email" id="commentEmail"
-                                               placeholder="Enter Email">
-                                        <i class="fa-regular fa-envelope"></i>
-                                    </div>
-                                </div>
-                                <div class="input-icon input-icon-alt">
-                             <textarea name="comment-message" id="commentMessage" cols="30" rows="10"
-                                       placeholder="Type Your Comments..."></textarea>
-                                    <i class="fa-regular fa-comments"></i>
-                                </div>
-                                <div class="cta mt-40">
-                                    <div class="btn-wrapper">
-                                        <button type="submit" class="btn--secondary">Submit
-                                            Comment
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
+                        <div class="cm-img-single">
+                            <img src="assets/images/actions/action4s.gif" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -182,7 +75,7 @@
                         </div>
                         <form action="#" method="post">
                             <input type="text" name="search-product" id="searchProduct" placeholder="Search Here..."
-                                   required>
+                                required>
                             <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </form>
                     </div>
@@ -246,7 +139,7 @@
                             <a href="shop.html">Business Card</a>
                         </div>
                     </div>
-                    <div class="cm-sidebar-overview" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    {{-- <div class="cm-sidebar-overview" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                         <div class="cm-logo">
                             <img src="assets/images/event/logo.png" alt="Image">
                         </div>
@@ -257,12 +150,13 @@
                             </h4>
                         </div>
                         <div class="cm-cta">
-                            <a href="contact-us.html" aria-label="contact us" title="contact us" class="btn--primary">
+                            <a href="contact-us.html" aria-label="contact us" title="contact us"
+                                class="btn--primary">
                                 Get A Quote <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
                         <img src="assets/images/event/overview.png" alt="Image" class="parallax-image">
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- #favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon_temp.png" type="image/x-icon">
     <!-- #title -->
-    <title>Charifund | Nonprofit & Fundraising Charity Html5 Template</title>
+    <title>FINS-WINS</title>
     <!-- #keywords -->
     <meta name="keywords" content="charity, nonprofit, fundraising, donation, html, bootstrap, scss">
     <!-- #description -->
