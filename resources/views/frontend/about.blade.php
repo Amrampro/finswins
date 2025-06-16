@@ -4,6 +4,9 @@
     <!-- ==== banner section start ==== -->
     @include('frontend.components.about.banner')
     <!-- ==== / banner section end ==== -->
+    <!-- ==== about section start ==== -->
+    @include('frontend.components.about.about')
+    <!-- ==== / about section end ==== -->
     <!-- ==== help section start ==== -->
     @include('frontend.components.about.help')
     <!-- ==== / help section end ==== -->
@@ -19,10 +22,4 @@
     <!-- ==== testimonial section start ==== -->
     @include('frontend.components.about.testimonial')
     <!-- ==== / testimonial section end ==== -->
-    <!-- ==== contact section start ==== -->
-    @include('frontend.components.about.contact')
-    <!-- ==== / contact section end ==== -->
-    <!-- ==== difference two section start ==== -->
-    @include('frontend.components.contact.difference_two')
-    <!-- ==== / difference two section end ==== -->
 @endsection

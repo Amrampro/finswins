@@ -54,7 +54,7 @@
                                     </ul>
                                 </li>
                                 <li class="navbar__item nav-fade">
-                                    <a @class([ 'active' => request()->routeIs('frontend.contact')]) href="{{route('frontend.contact')}}">Contact Us</a>
+                                    <a @class([ 'active' => request()->routeIs('frontend.contact')]) href="{{route('frontend.contact')}}">Contact</a>
                                 </li>
                             </ul>
                         </div>

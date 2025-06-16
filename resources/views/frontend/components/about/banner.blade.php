@@ -2,13 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="common-banner__content text-center">
-                <span class="sub-title"><i class="icon-donation"></i>Start donating poor people</span>
-                <h2 class="title-animation">About Us</h2>
+                <span class="sub-title"><i class="icon-donation"></i>FINS - WINS</span>
+                <h2 class="title-animation">Qui Sommes Nous ?</h2>
             </div>
         </div>
     </div>
     <div class="banner-bg">
-        <img src="assets/images/banner/banner-bg.png" alt="Image">
+        <img src="assets/images/about/sld6.png" alt="Image">
     </div>
     <div class="shape">
         <img src="assets/images/shape.png" alt="Image">
