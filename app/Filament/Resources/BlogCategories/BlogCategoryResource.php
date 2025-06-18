@@ -23,7 +23,7 @@ class BlogCategoryResource extends Resource
     protected static ?string $model = BlogCategory::class;
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
-    protected static string | UnitEnum | null $navigationGroup = FilamentNavigationEnum::ADMINISTRATION;
+    protected static string | UnitEnum | null $navigationGroup = FilamentNavigationEnum::BLOG;
 
     public static function form(Schema $schema): Schema
     {

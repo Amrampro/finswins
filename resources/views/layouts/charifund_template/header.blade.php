@@ -6,7 +6,7 @@
                     <nav class="navbar p-0">
                         <div class="navbar-logo">
                             <a href="{{route('frontend.home')}}">
-                                <img src="assets/images/logo.png" alt="Image">
+                                <img src="{{asset('assets/images/logo.png')}}" alt="Image">
                             </a>
                         </div>
                         <div class="navbar__menu d-none d-xl-block">
@@ -28,7 +28,7 @@
                                             <a @class([ 'active' => request()->routeIs('frontend.team')]) href="{{route('frontend.team')}}">Notre équipe</a>
                                         </li>
                                         <li>
-                                            <a href="blog-grid.html">Portraits</a>
+                                            <a @class([ 'active' => request()->routeIs('frontend.portrait')]) href="{{route('frontend.portrait')}}">Portraits</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -74,7 +74,7 @@
                                         <i class="fa-solid fa-magnifying-glass"></i>
                                     </button>
                                 </div>
-                                <a href="donate-us.html" class="btn--primary d-none d-md-flex">Faire un Don <i
+                                <a href="{{\App\Filament\Pages\Dashboard::getUrl()}}" class="btn--primary d-none d-md-flex">Administration<i
                                         class="icon-circle-arrow"></i></a>
                             </div>
                             <button class="open-offcanvas-nav d-flex d-xl-none" aria-label="toggle mobile menu"

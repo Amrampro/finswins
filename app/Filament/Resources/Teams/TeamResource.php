@@ -24,7 +24,7 @@ class TeamResource extends Resource
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::UserGroup;
 
-    protected static string | UnitEnum | null $navigationGroup = FilamentNavigationEnum::ADMINISTRATION;
+    protected static string | UnitEnum | null $navigationGroup = FilamentNavigationEnum::TEAM;
 
     public static function form(Schema $schema): Schema
     {
@@ -44,7 +44,6 @@ class TeamResource extends Resource
     public static function getRelations(): array
     {
         return [
-            //
         ];
     }
 
@@ -52,9 +51,9 @@ class TeamResource extends Resource
     {
         return [
             'index' => ListTeams::route('/'),
-            'create' => CreateTeam::route('/create'),
+            //'create' => CreateTeam::route('/create'),
             'view' => ViewTeam::route('/{record}'),
-            'edit' => EditTeam::route('/{record}/edit'),
+            //'edit' => EditTeam::route('/{record}/edit'),
         ];
     }
 }

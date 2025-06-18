@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- #favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="assets/images/favicon_temp.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
+    <link rel="icon" href="{{asset('assets/images/favicon_temp.png')}}" type="image/x-icon">
     <!-- #title -->
     <title>FINS-WINS</title>
     <!-- #keywords -->
@@ -21,19 +21,19 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap"
         rel="stylesheet"> <!-- main css -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
     <!-- responsive css -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
     <!-- color themes -->
-    <link rel="stylesheet" href="assets/css/default-theme.css" id="switch-color">
+    <link rel="stylesheet" href="{{asset('assets/css/default-theme.css')}}" id="switch-color">
     <!-- want sticky header -->
-    <link rel="stylesheet" href="assets/css/sticky-header.css">
+    <link rel="stylesheet" href="{{asset('assets/css/sticky-header.css')}}">
     <!-- box layout css -->
-    <link rel="stylesheet" href="assets/css/box-layout.css">
+    <link rel="stylesheet" href="{{asset('assets/css/box-layout.css')}}">
     <!-- dark mode css -->
-    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="{{asset('assets/css/dark-mode.css')}}">
     <!-- rtl css -->
-    <link rel="stylesheet" href="assets/css/rtl.css">
+    <link rel="stylesheet" href="{{asset('assets/css/rtl.css')}}">
 </head>
 
 <body>
@@ -84,37 +84,37 @@
 </div>
 <!-- ==== js dependencies start ==== -->
 <!-- jquery -->
-<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src="{{asset('assets/js/jquery-3.7.1.min.js')}}"></script>
 <!-- bootstrap five js -->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
 <!-- nice select js -->
-<script src="assets/js/jquery.nice-select.min.js"></script>
+<script src="{{asset('assets/js/jquery.nice-select.min.js')}}"></script>
 <!-- magnific popup js -->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="{{asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
 <!-- swiper slider js -->
-<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="{{asset('assets/js/swiper-bundle.min.js')}}"></script>
 <!-- viewport js -->
-<script src="assets/js/viewport.jquery.js"></script>
+<script src="{{asset('assets/js/viewport.jquery.js')}}"></script>
 <!-- odometer js -->
-<script src="assets/js/odometer.min.js"></script>
+<script src="{{asset('assets/js/odometer.min.js')}}"></script>
 <!-- vanilla tilt js -->
-<script src="assets/js/vanilla-tilt.min.js"></script>
+<script src="{{asset('assets/js/vanilla-tilt.min.js')}}"></script>
 <!-- aos js -->
-<script src="assets/js/aos.js"></script>
+<script src="{{asset('assets/js/aos.js')}}"></script>
 
 <!-- splittext js -->
-<script src="assets/js/SplitText.min.js"></script>
+<script src="{{asset('assets/js/SplitText.min.js')}}"></script>
 <!-- scrollto js -->
-<script src="assets/js/ScrollToPlugin.min.js"></script>
+<script src="{{asset('assets/js/ScrollToPlugin.min.js')}}"></script>
 <!-- scrolltrigger js -->
-<script src="assets/js/ScrollTrigger.min.js"></script>
+<script src="{{asset('assets/js/ScrollTrigger.min.js')}}"></script>
 <!-- gsap js -->
-<script src="assets/js/gsap.min.js"></script>
+<script src="{{asset('assets/js/gsap.min.js')}}"></script>
 <!-- ==== / js dependencies end ==== -->
 <!-- template settings js -->
-<script src="assets/js/template-settings.js"></script>
+<script src="{{asset('assets/js/template-settings.js')}}"></script>
 <!-- main js -->
-<script src="assets/js/custom.js"></script>
+<script src="{{asset('assets/js/custom.js')}}"></script>
 </body>
 
 </html>

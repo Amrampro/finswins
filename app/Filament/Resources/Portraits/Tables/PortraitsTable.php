@@ -21,7 +21,6 @@ class PortraitsTable
                     ->searchable(),
                 ImageColumn::make('image')
                     ->disk('public'),
-                TextColumn::make("description"),
                 TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()

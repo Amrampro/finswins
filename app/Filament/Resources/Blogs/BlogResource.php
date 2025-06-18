@@ -23,7 +23,7 @@ class BlogResource extends Resource
     protected static ?string $model = Blog::class;
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::PaperAirplane;
-    protected static string | UnitEnum | null $navigationGroup = FilamentNavigationEnum::ADMINISTRATION;
+    protected static string | UnitEnum | null $navigationGroup = FilamentNavigationEnum::BLOG;
     public static function form(Schema $schema): Schema
     {
         return BlogForm::configure($schema);

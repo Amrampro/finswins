@@ -13,7 +13,8 @@ class PortraitInfolist
         return $schema
             ->components([
                 TextEntry::make('name'),
-                ImageEntry::make('image'),
+                ImageEntry::make('image')->disk('public'),
+                TextEntry::make("description")->html(),
                 TextEntry::make('created_at')
                     ->dateTime(),
                 TextEntry::make('updated_at')

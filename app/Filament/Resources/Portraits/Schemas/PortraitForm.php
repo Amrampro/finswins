@@ -3,6 +3,7 @@
 namespace App\Filament\Resources\Portraits\Schemas;
 
 use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Schemas\Schema;
@@ -19,9 +20,9 @@ class PortraitForm
                     ->image()
                     ->required()
                     ->imageEditor()
-                    ->imageCropAspectRatio("1:1")
+                    ->imageCropAspectRatio("9:10")
                     ->disk('public'),
-                Textarea::make('description'),
+                RichEditor::make('description'),
             ])->columns(1);
     }
 }

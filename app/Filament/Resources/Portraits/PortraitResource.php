@@ -51,7 +51,7 @@ class PortraitResource extends Resource
     {
         return [
             'index' => ListPortraits::route('/'),
-            'create' => CreatePortrait::route('/create'),
+            //'create' => CreatePortrait::route('/create'),
             'view' => ViewPortrait::route('/{record}'),
             'edit' => EditPortrait::route('/{record}/edit'),
         ];

@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\Teams\Schemas;
 
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Schema;
 
@@ -15,7 +16,12 @@ class TeamForm
                     ->required(),
                 TextInput::make('role')
                     ->required(),
-                TextInput::make('category')
+                Select::make('team_category_id')
+                    ->createOptionForm([
+                        TextInput::make('name')
+                            ->required(),
+                    ])
+                    ->relationship('teamCategory', 'name')
                     ->required(),
             ]);
     }
