@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\TeamCategories\Schemas;
 
+use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Schema;
 
 class TeamCategoryInfolist
@@ -10,7 +11,7 @@ class TeamCategoryInfolist
     {
         return $schema
             ->components([
-                //
+                TextInput::make('name')
             ]);
     }
 }

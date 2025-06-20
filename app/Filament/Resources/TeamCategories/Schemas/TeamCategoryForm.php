@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\TeamCategories\Schemas;
 
+use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Schema;
 
 class TeamCategoryForm
@@ -10,7 +11,7 @@ class TeamCategoryForm
     {
         return $schema
             ->components([
-                //
+                TextInput::make('name')->required()
             ]);
     }
 }
