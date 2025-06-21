@@ -6,12 +6,12 @@
                     <div class="section__content text-center" data-aos="fade-up" data-aos-duration="1000">
                         <span class="sub-title"><i class="icon-donation"></i>Soutenez les Femmes, Changez des Vies</span>
                         <h2 class="title-animation">Votre engagement peut transformer des réalités.</h2>
-                        <div class="banner__content-cta cta">
+                        {{-- <div class="banner__content-cta cta">
                             <a href="our-causes.html" aria-label="about us" title="about us" class="btn--tertiary">Nos
                                 Actions <i class="fa-solid fa-arrow-right"></i></a>
                             <a href="contact-us.html" aria-label="contact us" title="contact us" class="btn--primary">Je
                                 M’engage<i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>

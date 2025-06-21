@@ -8,7 +8,7 @@
     @include('frontend.components.home.help_two')
     <!-- ==== / help section end ==== -->
     <!-- ==== cause slider section start ==== -->
-    @include('frontend.components.home.caus_slider')
+    {{-- @include('frontend.components.home.caus_slider') --}}
     <!-- ==== / cause slider section end ==== -->
     <!-- ==== cta section start ==== -->
     @include('frontend.components.home.cta')

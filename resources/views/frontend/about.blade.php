@@ -17,7 +17,8 @@
     @include('frontend.components.about.team')
     <!-- ==== / team section end ==== -->
     <!-- ==== faq section start ==== -->
-    @include('frontend.components.about.faq')
+    @include('frontend.components.home.faq')
+    {{-- @include('frontend.components.about.faq') --}}
     <!-- ==== / faq section end ==== -->
     <!-- ==== testimonial section start ==== -->
     @include('frontend.components.about.testimonial')

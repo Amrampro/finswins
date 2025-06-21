@@ -93,10 +93,11 @@
                 <div class="faq__thumb d-none d-lg-block">
                     <div class="faq__thumb-inner">
                         <div class="thumb-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                            <img src="assets/images/faq/thumb-lg.png" alt="Image">
+                            {{-- <img src="assets/images/faq/thumb-lg.png" alt="Image"> --}}
+                            <img src="{{asset('assets/images/faq/thumb-lg-1.png')}}" alt="Image">
                         </div>
                         <div class="thumb-sm" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-                            <img src="assets/images/faq/thumb-sm.png" alt="Image">
+                            <img src="{{asset('assets/images/faq/thumb-sm-1.png')}}" alt="Image">
                         </div>
                     </div>
                 </div>
