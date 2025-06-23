@@ -13,5 +13,6 @@ class Team extends Model
     {
         return $this->belongsTo(TeamCategory::class);
     }
+
 }
 

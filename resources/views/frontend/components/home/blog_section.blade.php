@@ -13,101 +13,46 @@
             </div>
         </div>
         <div class="row gutter-40">
-            <div class="col-12 col-lg-6 col-xl-4">
-                <div class="blog__single-wrapper" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="blog__single van-tilt">
-                        <div class="blog__single-inner">
-                            <div class="blog__single-meta">
-                                <p><i class="icon-user"></i>Robert Fox</p>
-                                <p><i class="icon-message"></i>Comments (03)</p>
-                            </div>
-                            <div class="blog__single-content">
-                                <h5><a href="blog-details.html">IT Service Case Studies Accelerate
-                                        Business Fly Success Tech</a>
-                                </h5>
-                            </div>
-                            <div class="blog__single-thumb">
-                                <a href="blog-details.html">
-                                    <img src="assets/images/blog/one.png" alt="Image">
-                                </a>
-                                <div class="tag">
-                                    <a href="blog-list.html"><i class="fa-solid fa-tags"></i>Health</a>
+            @foreach($blogs??[] as $blog)
+                @php
+                    /** @var \App\Models\Blog $blog */
+                @endphp
+                <div class="col-12 col-lg-6 col-xl-4">
+                    <div class="blog__single-wrapper" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="blog__single van-tilt">
+                            <div class="blog__single-inner">
+                                <div class="blog__single-meta">
+                                    <p><i class="icon-user"></i>{{$blog->blogCategory?->name}}</p>
+
+                                </div>
+                                <div class="blog__single-content">
+                                    <h5><a href="{{$blog->getShowRoute()}}">{{$blog->title}}</a>
+                                    </h5>
+                                </div>
+                                <div class="blog__single-thumb">
+                                    <a href="{{$blog->getShowRoute()}}">
+                                        <img src="{{$blog->getPosterUrl()}}" alt="Image">
+                                    </a>
+                                    <div class="tag">
+{{--                                        <a href="blog-list.html"><i class="fa-solid fa-tags"></i>Health</a>--}}
+                                    </div>
+                                </div>
+                                <div class="blog__single-cta">
+                                    <a href="{{$blog->getShowRoute()}}" aria-label="blog details" title="blog details">Read
+                                        More<i class="fa-solid fa-circle-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <div class="blog__single-cta">
-                                <a href="blog-details.html" aria-label="blog details" title="blog details">Read
-                                    More<i class="fa-solid fa-circle-arrow-right"></i></a>
-                            </div>
+                            <img src="assets/images/blog/spade.png" alt="Image" class="spade-two">
                         </div>
-                        <img src="assets/images/blog/spade.png" alt="Image" class="spade-two">
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-6 col-xl-4">
-                <div class="blog__single-wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                    <div class="blog__single van-tilt">
-                        <div class="blog__single-inner">
-                            <div class="blog__single-meta">
-                                <p><i class="icon-user"></i>Robert Fox</p>
-                                <p><i class="icon-message"></i>Comments (08)</p>
-                            </div>
-                            <div class="blog__single-content">
-                                <h5><a href="blog-details.html">IT Service Case Studies Accelerate
-                                        Business Fly Success Tech</a>
-                                </h5>
-                            </div>
-                            <div class="blog__single-thumb">
-                                <a href="blog-details.html">
-                                    <img src="assets/images/blog/two.png" alt="Image">
-                                </a>
-                                <div class="tag">
-                                    <a href="blog-list.html"><i class="fa-solid fa-tags"></i>Education</a>
-                                </div>
-                            </div>
-                            <div class="blog__single-cta">
-                                <a href="blog-details.html" aria-label="blog details" title="blog details">Read
-                                    More<i class="fa-solid fa-circle-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <img src="assets/images/blog/spade.png" alt="Image" class="spade-two">
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6 col-xl-4">
-                <div class="blog__single-wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                    <div class="blog__single van-tilt">
-                        <div class="blog__single-inner">
-                            <div class="blog__single-meta">
-                                <p><i class="icon-user"></i>Robert Fox</p>
-                                <p><i class="icon-message"></i>Comments (13)</p>
-                            </div>
-                            <div class="blog__single-content">
-                                <h5><a href="blog-details.html">IT Service Case Studies Accelerate
-                                        Business Fly Success Tech</a>
-                                </h5>
-                            </div>
-                            <div class="blog__single-thumb">
-                                <a href="blog-details.html">
-                                    <img src="assets/images/blog/three.png" alt="Image">
-                                </a>
-                                <div class="tag">
-                                    <a href="blog-list.html"><i class="fa-solid fa-tags"></i>Food</a>
-                                </div>
-                            </div>
-                            <div class="blog__single-cta">
-                                <a href="blog-details.html" aria-label="blog details" title="blog details">Read
-                                    More<i class="fa-solid fa-circle-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <img src="assets/images/blog/spade.png" alt="Image" class="spade-two">
-                    </div>
-                </div>
-            </div>
+            @endforeach
+
         </div>
         <div class="row">
             <div class="col-12">
                 <div class="section__cta cta text-center">
-                    <a href="blog-grid.html" aria-label="our blog" title="our blog" class="btn--primary">View
+                    <a href="{{route('frontend.blogs.index')}}" aria-label="our blog" title="our blog" class="btn--primary">View
                         All <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>

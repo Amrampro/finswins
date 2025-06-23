@@ -17,6 +17,8 @@ Route::as("frontend.")->group(function () {
     Route::get("/team", \App\Http\Controllers\Frontend\FrontendTeamController::class)->name("team");
     Route::get("/portrait", [\App\Http\Controllers\Frontend\FrontendPortraitController::class,'index'])->name("portrait");
     Route::get("/portrait/{portraitId}", [\App\Http\Controllers\Frontend\FrontendPortraitController::class,'show'])->name("portrait.show");
-    Route::get("/blogs", \App\Http\Controllers\Frontend\FrontendBlogController::class)->name("blogs.index");
+    Route::get("/blogs", [\App\Http\Controllers\Frontend\FrontendBlogController::class,'index'])->name("blogs.index");
+    Route::get("/blogs/{blogId}", [\App\Http\Controllers\Frontend\FrontendBlogController::class,'show'])->name("blogs.show");
+    Route::get("/galleries", \App\Http\Controllers\Frontend\FrontendGalleryController::class)->name("galleries");
 
 });

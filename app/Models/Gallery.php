@@ -13,5 +13,11 @@ class Gallery extends Model
             'published_at' => 'date',
             'images' => 'array',
         ];
+
+    }
+
+    public function getFirstImageUrl(): string
+    {
+        return asset("storage/".data_get($this->images, "0","default.png"));
     }
 }

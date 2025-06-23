@@ -12,4 +12,12 @@ class Blog extends Model
     {
         return $this->belongsTo(BlogCategory::class);
     }
+    public function getShowRoute()
+    {
+        return route('frontend.blogs.show',['blogId'=>$this->id]);
+    }
+    public function getPosterUrl()
+    {
+        return asset('storage/'.$this->poster);
+    }
 }
