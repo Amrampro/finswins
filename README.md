@@ -53,7 +53,7 @@ Configurer ensuite votre base de données dans le fichier `.env`.
 - 🧹 Section Projets & Partenariats
 - 💕 Système de dons
 - 📊 Tableau de bord d’impact chiffré
-- 🗓️ Intégration du calendrier éditorial (citations, projets, vidéos, posts spirituels)
+- 🗓️ Intégration du calendrier éditorial (citations, projets, vidéos, posts)
 - 🌐 Préparation multilingue (Fr/En)
 
 ## 🤝 Contribution
