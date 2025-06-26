@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Http\Controllers\Frontend;
+
+use App\Http\Controllers\Controller;
+use App\Models\Blog;
+use App\Models\BlogCategory;
+
+class FrontendBlogController extends Controller
+{
+    public function index()
+    {
+        return view("frontend.blogs.blog_index",[
+            'blogs'=>Blog::paginate(16),
+            'blogCategories'=>BlogCategory::withCount('blogs')->get()
+        ]);
+    }
+    public function show(int $blogId)
+    {
+        return view("frontend.blogs.blog_show",[
+            'blog' => Blog::find($blogId)
+        ]);
+    }
+}
