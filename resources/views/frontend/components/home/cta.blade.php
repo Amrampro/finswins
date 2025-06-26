@@ -18,7 +18,8 @@
         </div>
     </div>
     <div class="cta-bg">
-        <img src="assets/images/cta/cta-bg.png" alt="Image" class="parallax-image">
+        {{-- <img src="{{asset('assets/images/cta/cta-bg.png')}}" alt="Image" class="parallax-image"> --}}
+        <img src="{{asset('assets/images/website/1.jpg')}}" alt="Image" class="parallax-image">
     </div>
     <div class="shape-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
         <img src="assets/images/cta/shape-left.png" alt="Image">

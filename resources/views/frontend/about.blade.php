@@ -14,7 +14,8 @@
     @include('frontend.components.about.cta')
     <!-- ==== / cta section end ==== -->
     <!-- ==== team section start ==== -->
-    @include('frontend.components.about.team')
+    @include('frontend.components.home.team')
+    {{-- @include('frontend.components.about.team') --}}
     <!-- ==== / team section end ==== -->
     <!-- ==== faq section start ==== -->
     @include('frontend.components.home.faq')

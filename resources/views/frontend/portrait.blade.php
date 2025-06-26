@@ -6,5 +6,5 @@
     <!-- ==== / banner section end ==== -->
     <!-- ==== team section start ==== -->
     @include('frontend.components.portrait.list_items',['portraits' => $portraits])
-    <!-- ==== / team section end ==== -->]
+    <!-- ==== / team section end ==== -->
 @endsection

@@ -44,10 +44,10 @@
                     <div class="cm-details__sidebar">
                         <div class="cm-sidebar-widget" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                             <div class="intro">
-                                <h5>search here</h5>
+                                <h5>Rechercher ici</h5>
                             </div>
                             <form action="#" method="post">
-                                <input type="text" name="search-product" id="searchProduct" placeholder="Search Here..."
+                                <input type="text" name="search-product" id="searchProduct" placeholder="Rechercher..."
                                        required>
                                 <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                             </form>

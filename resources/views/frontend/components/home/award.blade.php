@@ -3,10 +3,9 @@
         <div class="row justify-content-center">
             <div class="col-12 col-lg-10 col-xl-8">
                 <div class="section__header text-center" data-aos="fade-up" data-aos-duration="1000">
-                     <span class="sub-title"><i class="icon-donation"></i>Start donating poor
-                        people</span>
-                    <h2 class="title-animation">Our Global Awards <span>Winning</span>
-                        Photo Gallery
+                     <span class="sub-title"><i class="icon-donation"></i>Soutenez les Femmes, Changez des Vies</span>
+                    <h2 class="title-animation">Explorez notre <span>Gallerie</span>
+                        Photo 
                     </h2>
                 </div>
             </div>
@@ -42,8 +41,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="section__cta cta text-center">
-                    <a href="{{route('frontend.galleries')}}" aria-label="our events" title="our events" class="btn--primary">View
-                        All <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="{{route('frontend.galleries')}}" aria-label="our events" title="our events" class="btn--primary">Voir plus <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

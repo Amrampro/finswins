@@ -4,10 +4,8 @@
             <div class="col-12 col-md-8 col-xl-7">
                 <div class="section__header text-center" data-aos="fade-up" data-aos-duration="1000"
                      data-aos-delay="100">
-                     <span class="sub-title"><i class="icon-donation"></i>Start donating poor
-                        people</span>
-                    <h2 class="title-animation">Our Latest <span>News</span> &
-                        Articles you like
+                     <span class="sub-title"><i class="icon-donation"></i>Soutenez les Femmes, Changez des Vies</span>
+                    <h2 class="title-animation">Nos <span>Posts & Articles</span> les plus récents
                     </h2>
                 </div>
             </div>
@@ -38,8 +36,7 @@
                                     </div>
                                 </div>
                                 <div class="blog__single-cta">
-                                    <a href="{{$blog->getShowRoute()}}" aria-label="blog details" title="blog details">Read
-                                        More<i class="fa-solid fa-circle-arrow-right"></i></a>
+                                    <a href="{{$blog->getShowRoute()}}" aria-label="blog details" title="blog details">Lire plus<i class="fa-solid fa-circle-arrow-right"></i></a>
                                 </div>
                             </div>
                             <img src="assets/images/blog/spade.png" alt="Image" class="spade-two">
@@ -52,8 +49,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="section__cta cta text-center">
-                    <a href="{{route('frontend.blogs.index')}}" aria-label="our blog" title="our blog" class="btn--primary">View
-                        All <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="{{route('frontend.blogs.index')}}" aria-label="our blog" title="our blog" class="btn--primary">Voir plus <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
