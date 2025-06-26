@@ -8,7 +8,7 @@ Ce site a pour but de présenter nos actions, faciliter les dons, renforcer l’
 
 - **Laravel 11** (PHP Framework)
 - **Blade** (Moteur de templates)
-- **Tailwind CSS** (ou Bootstrap, selon votre setup)
+- **Tailwind CSS** (et Bootstrap)
 - **MySQL** (ou autre SGBD)
 - **GitHub** pour le versioning collaboratif
 
@@ -33,12 +33,14 @@ Ce site a pour but de présenter nos actions, faciliter les dons, renforcer l’
 ## ⚙️ Installation locale
 
 ```bash
-git clone https://github.com/votre-utilisateur/finswins.git
+git clone https://github.com/amrampro/finswins.git
 cd finswins
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
+php artisan storage:link
+php artisan optimize:clear
 php artisan serve
 ```
 
