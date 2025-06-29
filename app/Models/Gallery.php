@@ -20,4 +20,11 @@ class Gallery extends Model
     {
         return asset("storage/".data_get($this->images, "0","default.png"));
     }
+
+    public function getImagesUrl(): array
+    {
+        return collect($this->images)->map(function (string $image){
+            return asset('storage/'.$image);
+        })->all();
+    }
 }

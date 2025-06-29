@@ -13,10 +13,10 @@
                                     durables.
                                 </p>
                                 <div class="banner__content-cta cta">
-                                    <a href="our-causes.html" aria-label="about us" title="about us"
+                                    <a href="#" aria-label="about us" title="about us"
                                         class="btn--tertiary">Découvrir Nos Actions<i
                                             class="fa-solid fa-arrow-right"></i></a>
-                                    <a href="contact-us.html" aria-label="contact us" title="contact us"
+                                    <a href="#" aria-label="contact us" title="contact us"
                                         class="btn--primary">Je M’engage <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -30,9 +30,9 @@
                                     Rejoignez notre mouvement et devenez acteur d’un changement durable, ici et
                                     ailleurs.</p>
                                 <div class="banner__content-cta cta">
-                                    <a href="our-causes.html" aria-label="about us" title="about us"
+                                    <a href="{{route('frontend.about')}}" aria-label="about us" title="about us"
                                         class="btn--tertiary">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
-                                    <a href="contact-us.html" aria-label="contact us" title="contact us"
+                                    <a href="#" aria-label="contact us" title="contact us"
                                         class="btn--primary">Agir maintenant <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -44,9 +44,9 @@
                                 <p>Grâce à vos dons, nous formons, accompagnons et révélons le potentiel des femmes Bayam-Sellam et migrantes.
                                     Investissez dans des projets qui changent réellement les trajectoires de vie</p>
                                 <div class="banner__content-cta cta">
-                                    <a href="our-causes.html" aria-label="about us" title="about us"
+                                    <a href="#" aria-label="about us" title="about us"
                                         class="btn--tertiary">Nos Projets <i class="fa-solid fa-arrow-right"></i></a>
-                                    <a href="contact-us.html" aria-label="contact us" title="contact us"
+                                    <a href="#" aria-label="contact us" title="contact us"
                                         class="btn--primary">Faire un Don <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>

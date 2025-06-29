@@ -8,4 +8,10 @@ class Testimonial extends Model
 {
     protected $guarded = [];
 
+    //get image url
+    public function getImageUrl(): string
+    {
+        return asset('storage/' . $this->avatar);
+    }
+
 }

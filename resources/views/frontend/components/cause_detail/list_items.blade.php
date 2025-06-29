@@ -84,49 +84,26 @@
                             <h5>Recent Posts</h5>
                         </div>
                         <div class="cm-sidebar-post">
-                            <div class="single-item">
-                                <div class="thumb">
-                                    <a href="blog-details.html">
-                                        <img src="assets/images/blog/ph-one.png" alt="Image">
-                                    </a>
+                            @foreach($recentPosts??[] as $post)
+                                @php /** @var \App\Models\Blog $post */ @endphp
+                                <div class="single-item">
+                                    <div class="thumb">
+                                        <a href="{{$post->getShowRoute()}}">
+                                            <img src="{{$post->getPosterUrl()}}" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <p><i class="fa-solid fa-calendar-days"></i> <span>{{$post->created_at->isoFormat('lll')}}</span>
+                                        </p>
+                                        <p><a href="{{$post->getShowRoute()}}">{{$post->title}}</a>
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="content">
-                                    <p><i class="fa-solid fa-calendar-days"></i> <span>November 19, 2024</span>
-                                    </p>
-                                    <p><a href="blog-details.html">Where Innovation Meets Foundation</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="single-item">
-                                <div class="thumb">
-                                    <a href="blog-details.html">
-                                        <img src="assets/images/blog/ph-two.png" alt="Image">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <p><i class="fa-solid fa-calendar-days"></i> <span>November 19, 2024</span>
-                                    </p>
-                                    <p><a href="blog-details.html">Where Innovation Meets Foundation</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="single-item">
-                                <div class="thumb">
-                                    <a href="blog-details.html">
-                                        <img src="assets/images/blog/three.png" alt="Image">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <p><i class="fa-solid fa-calendar-days"></i> <span>November 22, 2024</span>
-                                    </p>
-                                    <p><a href="blog-details.html">Structures That Stand,
-                                            Dreams That Soar</a>
-                                    </p>
-                                </div>
-                            </div>
+                            @endforeach
+
                         </div>
                     </div>
-                    <div class="cm-sidebar-widget" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    {{--<div class="cm-sidebar-widget" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                         <div class="intro">
                             <h5>Tags</h5>
                         </div>
@@ -138,7 +115,7 @@
                             <a href="shop.html">Print</a>
                             <a href="shop.html">Business Card</a>
                         </div>
-                    </div>
+                    </div>--}}
                     {{-- <div class="cm-sidebar-overview" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                         <div class="cm-logo">
                             <img src="assets/images/event/logo.png" alt="Image">

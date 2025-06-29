@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Blog;
 use App\Models\Gallery;
 use App\Models\Team;
+use App\Models\Testimonial;
 
 class FrontendHomeController extends Controller
 {
@@ -14,8 +15,9 @@ class FrontendHomeController extends Controller
         $latestTeams = Team::query()->take(4)->get();
         return view("frontend.home",[
             'teams'=>$latestTeams,
-            'galleries'=>Gallery::query()->get(),
-            'blogs'=>Blog::take(3)->get()
+            'blogs'=>Blog::take(3)->get(),
+            'testimonials'=>Testimonial::latest()->take(6)->get(),
+            'galleries'=>Gallery::query()->get()
         ]);
 
     }

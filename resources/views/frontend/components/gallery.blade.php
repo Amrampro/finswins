@@ -1,78 +1,24 @@
+@php
+$count = 1;
+$maxCount = 12;
+@endphp
 <div class="gallery">
     <div class="gallery__inner">
         <div class="gallery__slider">
-            <div class="gallery__single">
-                <img src="assets/images/gallery/one.png" alt="Image">
-                <a href="index.html">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="gallery__single">
-                <img src="assets/images/gallery/two.png" alt="Image">
-                <a href="index.html">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="gallery__single">
-                <img src="assets/images/gallery/three.png" alt="Image">
-                <a href="index.html">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="gallery__single">
-                <img src="assets/images/gallery/four.png" alt="Image">
-                <a href="index.html">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="gallery__single">
-                <img src="assets/images/gallery/five.png" alt="Image">
-                <a href="index.html">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="gallery__single">
-                <img src="assets/images/gallery/six.png" alt="Image">
-                <a href="index.html">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="gallery__single">
-                <img src="assets/images/gallery/one.png" alt="Image">
-                <a href="index.html">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="gallery__single">
-                <img src="assets/images/gallery/two.png" alt="Image">
-                <a href="index.html">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="gallery__single">
-                <img src="assets/images/gallery/three.png" alt="Image">
-                <a href="index.html">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="gallery__single">
-                <img src="assets/images/gallery/four.png" alt="Image">
-                <a href="index.html">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="gallery__single">
-                <img src="assets/images/gallery/five.png" alt="Image">
-                <a href="index.html">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-            <div class="gallery__single">
-                <img src="assets/images/gallery/six.png" alt="Image">
-                <a href="index.html">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
+            @foreach($galleries??[] as $galerie)
+                @break($count > $maxCount)
+                @foreach($galerie->getImagesUrl() as $image)
+                    @php($count+=1)
+                    <div class="gallery__single">
+                        <img src="{{$image}}" alt="Image" loading="lazy" >
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                @endforeach
+
+            @endforeach
+
         </div>
     </div>
 </div>

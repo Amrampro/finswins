@@ -16,7 +16,7 @@
                 <div class="row align-items-center">
                     <div class="col-12 col-lg-5 d-none d-lg-block">
                         <div class="testimonial-two__thumb">
-                            <img src="assets/images/testimonial-thumb.png" alt="Image">
+                            <img src="{{$testimonials->first()->getImageUrl()}}" alt="Image">
                             <div class="quote-thumb">
                                 <i class="fa-solid fa-quote-right"></i>
                             </div>
@@ -26,87 +26,32 @@
                         <div class="testimonial-two__content">
                             <div class="testimonial-two__slider swiper">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="testimonial-two__single">
-                                            <div class="author-info">
-                                                <div class="author-thumb">
-                                                    <img src="assets/images/author-two.png" alt="Image">
+                                    @foreach($testimonials??[] as $testimonial)
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-two__single">
+                                                <div class="author-info">
+                                                    <div class="author-thumb">
+                                                        <img src="{{$testimonial->getImageUrl()}}" alt="Image">
+                                                    </div>
+                                                    <div class="author-content">
+                                                        <h5>{{$testimonial->title}}</h5>
+                                                        <p>{{$testimonial->name}}</p>
+                                                    </div>
                                                 </div>
-                                                <div class="author-content">
-                                                    <h5>James Anderson</h5>
-                                                    <p>Software Engineer</p>
-                                                </div>
-                                            </div>
-                                            <div class="testimonial-two__single-content">
-                                                <h5>Climb the mountain not to plant your flag but to embrace
-                                                    the ways challenge, enjoy the air, and behold the. Climb it
-                                                    see the world, not so the world can see you. This is due to
-                                                    their excellent service.
-                                                </h5>
-                                                <div class="review">
-                                                    <i class="icon-star"></i>
-                                                    <i class="icon-star"></i>
-                                                    <i class="icon-star"></i>
-                                                    <i class="icon-star"></i>
-                                                    <i class="icon-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial-two__single">
-                                            <div class="author-info">
-                                                <div class="author-thumb">
-                                                    <img src="assets/images/author-two.png" alt="Image">
-                                                </div>
-                                                <div class="author-content">
-                                                    <h5>James Anderson</h5>
-                                                    <p>Software Engineer</p>
-                                                </div>
-                                            </div>
-                                            <div class="testimonial-two__single-content">
-                                                <h5>Climb the mountain not to plant your flag but to embrace
-                                                    the ways challenge, enjoy the air, and behold the. Climb it
-                                                    see the world, not so the world can see you. This is due to
-                                                    their excellent service.
-                                                </h5>
-                                                <div class="review">
-                                                    <i class="icon-star"></i>
-                                                    <i class="icon-star"></i>
-                                                    <i class="icon-star"></i>
-                                                    <i class="icon-star"></i>
-                                                    <i class="icon-star"></i>
+                                                <div class="testimonial-two__single-content">
+                                                    <h5>{{str($testimonial->message)->toHtmlString()}}
+                                                    </h5>
+                                                    <div class="review">
+                                                        <i class="icon-star"></i>
+                                                        <i class="icon-star"></i>
+                                                        <i class="icon-star"></i>
+                                                        <i class="icon-star"></i>
+                                                        <i class="icon-star"></i>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial-two__single">
-                                            <div class="author-info">
-                                                <div class="author-thumb">
-                                                    <img src="assets/images/author-two.png" alt="Image">
-                                                </div>
-                                                <div class="author-content">
-                                                    <h5>James Anderson</h5>
-                                                    <p>Software Engineer</p>
-                                                </div>
-                                            </div>
-                                            <div class="testimonial-two__single-content">
-                                                <h5>Climb the mountain not to plant your flag but to embrace
-                                                    the ways challenge, enjoy the air, and behold the. Climb it
-                                                    see the world, not so the world can see you. This is due to
-                                                    their excellent service.
-                                                </h5>
-                                                <div class="review">
-                                                    <i class="icon-star"></i>
-                                                    <i class="icon-star"></i>
-                                                    <i class="icon-star"></i>
-                                                    <i class="icon-star"></i>
-                                                    <i class="icon-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    @endforeach
                                 </div>
                             </div>
                             <div class="slider-navigation cta">
